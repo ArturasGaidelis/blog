@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mano Blog project</title>
+		<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+	</head>
+	
+	<body>
+		<!-- header start -->
+		<div id="header" class="section">
+			<img alt="" class="img-circle" src="https://code.sololearn.com/Icons/Avatars/0.jpg">
+			<p>Artūras Gaidelis</p>
+		</div>
+		<!-- header end -->
+		
+		<!-- About Me section start -->
+		<div class="section">
+			<h1><span>Blog Project</span></h1>
+			<p>
+				Sveiki, aš <strong>Arturas Gaidelis</strong>. <i>Aš blogai moku koduoti, bet labai stengiuosiu išmokti kažkuo naujo ir koduoti linksma ir sunkiai</i>
+			</p>
+			<p class="quote">Apie mane:</p>
+		</div>
+		<!-- About Me section end -->
+		
+		<!-- My Schedule section start -->
+		<div class="section">
+			<h1><span>Mano tvarkarastis</span></h1>
+			<table>
+				<tr>
+                    <th>Laikai</th>
+					<th>Pirm</th>
+					<th>Antr</th>
+					<th>Treč</th>
+					<th>Ketv</th>
+					<th>Penkt</th>
+					<th>Šiašt</th>
+                </tr>
+                
+				<tr>
+                    <td>8:00</td>
+                    <td class="selected"> Fizika</td>
+					<td class="selected"> Technologijos</td>
+					<td class="selected"> Lietuvių</td>
+					<td class="selected"> Kuno kultūra</td>
+					<td class="selected"> Lietuvių</td>
+					<td class="selected">  Miegas</td>
+				</tr>
+				<tr>
+                    <td>9:00</td>
+                    <td class="selected">Matematika</td>
+					<td class="selected">IT</td>
+					<td class="selected">Muzika</td>
+					<td class="selected">Pilietiškumo pagrindai</td>
+					<td class="selected">Lietuvių</td>
+					<td class="selected"> Miegas</td>
+				</tr>
+				<tr>
+                    <td>9:55</td>
+                    <td class="selected">Matematika</td>
+					<td class="selected">Istorija</td>
+					<td class="selected">Geogrfija</td>
+					<td class="selected">Istorija</td>
+					<td class="selected">Matematika</td>
+					<td class="selected"> Miegas</td>
+				</tr>
+				<tr>
+                    <td>11:45</td>
+                    <td class="selected">Lietuvių</td>
+					<td class="selected">Biologija</td>
+					<td class="selected">Kuno kultura</td>
+					<td class="selected">Chemija</td>
+					<td class="selected">Matematika</td>
+					<td class="selected"> Gulejimas su telefonu</td>
+                </tr>
+				<tr>
+                    <td>12:55</td>
+                    <td class="selected">Anglų</td>
+					<td class="selected">Rūsų</td>
+					<td class="selected">Dailė</td>
+					<td class="selected">Anglų</td>
+					<td class="selected">Chemija</td>
+					<td class="selected"> Valgymas</td>
+				</tr>
+			</table>
+		</div>
+		<!-- My Schedule section end -->
+		
+		
+		<!-- My Skills section start -->
+		<div class="section">
+			<h1><span>Mano Įgudžiai</span></h1>
+			<ul>
+				<li>Anglu Kalba <br />
+					<progress min="0" max="100" value="40"></progress>
+				</li>
+				<li>Rūsų  <br />
+					<progress min="0" max="100" value="80"></progress>
+				</li>
+			</ul>
+		</div>
+		<!-- My Skills section end -->
+		
+		<!-- Form section start -->
+	   <div class="section">
+			<h1><span>Kontaktai </span></h1>
+			
+			
+				 
+			<form>
+				<input name="name" placeholder="Name" type="text" required /><br/>
+				<input name="email" placeholder="Email" type="email" required /><br/>
+				<textarea name="message" placeholder="Message" required ></textarea>
+				<input type="submit" value="SEND" class="submit" />
+			</form>
+		</div>
+		<!-- Form section end -->
+		
+		
+		<div class="copyright">
+			&copy; 2020  blog project. 
+		</div>
+		
+	</body>
+</html>
